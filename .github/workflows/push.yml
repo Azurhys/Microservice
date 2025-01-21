@@ -31,6 +31,6 @@ jobs:
         with:
           context: .
           file: ./Jour2/app.py/Dockerfile
-          platforms: linux/arm/v7
+          platforms: linux/amd64
           push: true
           tags: azurhys/python-ci:latest
