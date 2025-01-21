@@ -30,6 +30,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
+          file: ./Jour2/app.py/Dockerfile
           platforms: linux/arm/v7
           push: true
           tags: azurhys/python-ci:latest
